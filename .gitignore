@@ -2,3 +2,5 @@ __pycache__/
 *.sqlite
 libraryDb (2).sqlite
 libraryDb (2).sqlite/
+library.db/
+library.db
