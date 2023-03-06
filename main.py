@@ -2,10 +2,10 @@ import sqlite3
 
 
 class User:
-    def __init__(self, name, email):
+    def __init__(self, name, email,pw):
         self.name = name
         self.email = email
-
+        self.pw = pw
     def __repr__(self):
         return f'User({self.name}, {self.email})'
 
